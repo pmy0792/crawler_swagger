@@ -50,7 +50,7 @@ urlpatterns = [
     
     # Blog
     path('', HomeView.as_view(), name='home'),
-    path('blog/', include('blog.urls')),
+    # path('blog/', include('blog.urls')),
     
     # 화면에 login 버튼 나타내는지 아닌지 정도의 역할
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
