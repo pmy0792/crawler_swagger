@@ -1,3 +1,4 @@
 drf_venv/
 drf_project/blog/
-drf_project/drf_api/
+drf_project/drf_api
+drf_project/__pycache/

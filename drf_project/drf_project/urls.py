@@ -47,7 +47,7 @@ urlpatterns = [
     
     # staff는 admin에서 로그인가능
     path("admin/", admin.site.urls),
-    
+     
     # Blog
     path('', HomeView.as_view(), name='home'),
     # path('blog/', include('blog.urls')),
